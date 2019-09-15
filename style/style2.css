@@ -1,0 +1,67 @@
+body {
+	background-color: lavender;
+}
+
+img {
+	height: 200px;
+	width: 100px;
+}
+
+table, td, th {
+	border: solid;
+	border-collapse: collapse;
+	font-size: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+	border-radius: 50px;
+}
+
+.button:hover {
+    background: green;
+}
+
+h5 {
+	font-size: 30px;
+}
+
+.error {
+	color: #FF0000;
+}
+
+input[type=text]  {
+	width: 85%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+}
+
+h6 {
+	font-size: 40px;
+}
+
+div#add {
+	border: solid;
+	margin: 10px 900px 0 10px;
+	padding: 50px;
+}
+
+#top {
+		display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}

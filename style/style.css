@@ -1,0 +1,168 @@
+table {
+	padding: 10px;
+	margin: 10px;
+}
+
+td {
+	padding: 50px;
+	font-size: 20px;
+}
+
+td#movie {
+	vertical-align: text-top;
+}
+
+th {
+	padding: 30px;
+	font-size: 25px;
+	background-color: 	lightgrey;
+	border-radius: 150px;
+}
+
+img#cover {
+	height: 300px;
+	width: 200px;
+}
+
+img#search {
+	height: 200px;
+	width: 100px;
+}
+
+img#main {
+	height: 400px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 35%;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: maroon;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+ul {
+	font-size: 30px;
+}
+
+div#div1 {
+	background-color: lavender;
+	border-radius: 50px;
+}
+
+div#div2 {
+	background-color: lavender;
+	border-radius: 50px;
+}
+
+h1 {
+	text-align: center;
+	background-color: 	lightgrey;
+	border-radius: 150px;
+}
+
+h2 {
+	text-align: center;
+	background-color: lightgrey;
+	border-radius: 150px;
+}
+
+h3 {
+	text-align: center;
+	background-color: lightgrey;
+	border-radius: 150px;
+	font-size: 30px;
+}
+
+h6 {
+	font-size: 25px;
+	text-align: center;
+	background-color: lightgrey;
+	border-radius: 150px;
+}
+
+p {
+	text-align: center;
+}
+
+.button, .button2 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+	border-radius: 50px;
+}
+
+.button:hover, .button2:hover {
+    background: green;
+}
+
+.button2 {
+		width: 100%;
+}
+
+form#group {
+	font-size: 20px;
+	display: block;
+  margin-left: 550px;
+	width: 30%;
+}
+
+div#login {
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+	width: 30%;
+	font-size: 20px;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+#top {
+		display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
